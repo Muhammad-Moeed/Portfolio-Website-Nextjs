@@ -53,7 +53,7 @@ const TAB_DATA: TabData[] = [
 
 const AboutSection: React.FC = () => {
   const [tab, setTab] = useState<string>("skills");
-  const [isPending, startTransition] = useTransition();
+  const [, startTransition] = useTransition(); // Remove `isPending`
 
   const handleTabChange = (id: string) => {
     startTransition(() => {
@@ -106,5 +106,4 @@ const AboutSection: React.FC = () => {
     </section>
   );
 };
-
 export default AboutSection;
