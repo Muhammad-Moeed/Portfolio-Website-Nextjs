@@ -11,7 +11,7 @@ export async function POST(req: Request) {
     const { email, subject, message }: { email: string; subject: string; message: string; } = await req.json();
 
     // Send the email
-    const { data, error } = await resend.emails.send({
+    const {error } = await resend.emails.send({
       from: 'Muhammad Moeed <m.moeedq497@gmail.com>', // Your email
       to: [`${email}`], // Send to the email from the request
       subject: subject || 'Hello world', // Use subject from the request
