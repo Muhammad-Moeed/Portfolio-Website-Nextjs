@@ -26,7 +26,7 @@ const TabButton: React.FC<TabButtonProps> = ({ active, selectTab, children }) =>
       <motion.div
         animate={active ? "active" : "default"}
         variants={variants}
-        className="h-1 bg-purple-400 mt-2 mr-3"
+        className="h-1 bg-teal-400 mt-2 mr-3"
         transition={{ duration: 0.3 }} // Add a transition for smoother animation
       />
     </button>
