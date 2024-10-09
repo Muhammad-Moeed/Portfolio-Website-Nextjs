@@ -8,7 +8,7 @@ import Image from "next/image";
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
 
-  const handleSubmit = async (e:any) => {
+  const handleSubmit = async (e: any) => {
     e.preventDefault();
     const data = {
       email: e.target.email.value,
@@ -43,14 +43,13 @@ const EmailSection = () => {
       id="contact"
       className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative"
     >
-      <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-teal-800 to-transparent rounded-full h-60 w-60 z-0 blur-lg absolute top-[600px] sm:top-[350px]  -left-4 transform -translate-x-1/2 -translate-1/2"></div>
+      <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-teal-800 to-transparent rounded-full h-60 w-60 z-0 blur-lg absolute top-[600px] sm:top-[350px] -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div>
         <h5 className="text-xl font-bold text-white my-2">
-        Let&#39;s Connect
+          Let&apos;s Connect
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          {" "}
-          I&#39;m open to new opportunities! Feel free to reach out with any questions or just to say hi. I'll do my best to respond promptly!
+          I&apos;m open to new opportunities! Feel free to reach out with any questions or just to say hi. I&apos;ll do my best to respond promptly!
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/Muhammad-Moeed">
@@ -111,7 +110,7 @@ const EmailSection = () => {
                 name="message"
                 id="message"
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Let's talk about..."
+                placeholder="Let&apos;s talk about..."
               />
             </div>
             <button
