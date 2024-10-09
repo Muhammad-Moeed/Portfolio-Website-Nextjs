@@ -46,11 +46,11 @@ const EmailSection = () => {
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-teal-800 to-transparent rounded-full h-60 w-60 z-0 blur-lg absolute top-[600px] sm:top-[350px]  -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div>
         <h5 className="text-xl font-bold text-white my-2">
-          Let&apos;s Connect
+        Let&#39;s Connect
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          I&apos;m open to new opportunities! Feel free to reach out with any questions or just to say hi. I'll do my best to respond promptly!
+          I&#39;m open to new opportunities! Feel free to reach out with any questions or just to say hi. I'll do my best to respond promptly!
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/Muhammad-Moeed">
