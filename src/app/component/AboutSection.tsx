@@ -19,7 +19,7 @@ const TAB_DATA: TabData[] = [
         <li>Node.js</li>
         <li>Express</li>
         <li>NoSQL</li>
-        <li>Tailwind</li>
+        <li>Tailwend</li>
         <li>JavaScript</li>
         <li>React</li>
         <li>Next</li>
@@ -43,7 +43,7 @@ const TAB_DATA: TabData[] = [
     content: (
       <ul className="list-disc pl-2">
         <li>Web & Mobile App Development from SMIT</li>
-        <li>Cisco Certified Pytohn Programming from SMIT</li>
+        <li>Cisco Certified Python Programming from SMIT</li>
         <li>Wordpress Development from Digiskill</li>
         <li>Digital Marketing DigiSkill</li>
       </ul>
